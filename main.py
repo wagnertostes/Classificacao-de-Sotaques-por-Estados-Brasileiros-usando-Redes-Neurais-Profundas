@@ -35,9 +35,9 @@ def main():
   ##########################################
   DEBUG = False
   #MAX_WAVE_SIZE = 905021    # true maximum size
-  MAX_WAVE_SIZE = 95000     # subsampled size
+  MAX_WAVE_SIZE = 107000     # subsampled size
   SEED = 42
-  MODEL = 'wagner_lstm_conv1d_1'    # a lista completa de modelos esta' em bac.models.py:get_model() 
+  MODEL = 'wagner_bilstm_conv1d_2'    # a lista completa de modelos esta' em bac.models.py:get_model() 
   NUM_EPOCHS = 250 
   BATCH_SIZE = 16
   LEARNING_RATE = 1e-4
