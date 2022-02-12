@@ -1,0 +1,22 @@
+Classification Report:
+               precision    recall  f1-score   support
+
+        Ceara       0.80      0.44      0.57         9
+EspiritoSanto       0.47      0.69      0.56        13
+        Goias       0.88      0.50      0.64        14
+  MinasGerais       0.71      0.71      0.71        14
+   Pernambuco       0.88      1.00      0.93         7
+     SaoPaulo       0.93      0.95      0.94       183
+
+     accuracy                           0.88       240
+    macro avg       0.78      0.72      0.73       240
+ weighted avg       0.88      0.88      0.87       240
+Los:
+0.00290169
+Confusion Matrix:
+4	0	0	1	0	4	
+0	9	0	3	0	1	
+0	0	7	0	0	7	
+0	3	0	10	0	1	
+0	0	0	0	7	0	
+1	7	1	0	1	173	
